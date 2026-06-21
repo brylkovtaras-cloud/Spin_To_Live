@@ -1144,6 +1144,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594395355}
   m_CullTransparentMesh: 1
+--- !u!1 &1810704172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1810704174}
+  - component: {fileID: 1810704173}
+  m_Layer: 0
+  m_Name: CursorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1810704173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810704172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2476fd82c38fc7a46825c4140d6e6a74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CursorGoblin
+  cursorNormal: {fileID: 2800000, guid: d7690cf94c2375b44b30926dca0b5bd0, type: 3}
+  cursorClick: {fileID: 2800000, guid: 8da4f63490db08e4abc1d270361c30cc, type: 3}
+  hotspot: {x: 0, y: 0}
+--- !u!4 &1810704174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810704172}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2061804296
 GameObject:
   m_ObjectHideFlags: 0
@@ -1257,3 +1304,4 @@ SceneRoots:
   - {fileID: 2061804300}
   - {fileID: 995111400}
   - {fileID: 763375978}
+  - {fileID: 1810704174}
