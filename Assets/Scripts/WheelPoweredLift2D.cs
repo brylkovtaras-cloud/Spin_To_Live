@@ -3,7 +3,7 @@ using UnityEngine;
 public class WheelPoweredLift2D : MonoBehaviour
 {
     [Header("References")]
-    [SerializeField] private DragFlywheel2D wheel;
+    [SerializeField] private UIDragFlywheel2D wheel;
     [SerializeField] private Rigidbody2D body;
     [SerializeField] private Transform liftPoint;
 

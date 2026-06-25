@@ -588,7 +588,7 @@ MonoBehaviour:
   clockwiseGivesLift: 1
   tiltPoint: {fileID: 1528867301}
   tiltTorque: 2.19
-  maxTiltAngle: 25
+  maxTiltAngle: 90
 --- !u!50 &1416868055
 Rigidbody2D:
   serializedVersion: 5
