@@ -9,10 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuPrincipal.unity
     guid: 1cd4e5ff371bd6340a2aefb8dcebddc8
   - enabled: 1
-    path: Assets/Scenes/Nivel1.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/Wip_LvL.unity
+    guid: fb07735284631ef40afc04027adfa1d2
   - enabled: 1
     path: Assets/Scenes/Creditos.unity
     guid: d71be2bc8e6d8304e9929bfa7e24d1f2
+  - enabled: 0
+    path: Assets/Scenes/Nivel1.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

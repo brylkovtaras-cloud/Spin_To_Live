@@ -5,8 +5,9 @@ public class MenuPrincipal : MonoBehaviour
 {
     public void Jugar()
     {
-        SceneManager.LoadScene("Nivel1");
+        SceneManager.LoadScene("Wip_LvL");
     }
+    
 
     public void Creditos()
     {
